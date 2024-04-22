@@ -1,0 +1,62 @@
+.direc img {
+    width: 500px;
+    /* margin-left: 200px; */
+}
+
+.direc {
+    /* width: 700px; */
+    margin: auto;
+    text-align: center;
+}
+
+.Orchestra img {
+    width: 1000px;
+    height: 400px;
+}
+
+.Orchestra {
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.Orchestra .container {
+    text-align: center;
+}
+
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+.MusicCareer {
+    /* width: 80%; */
+    margin: auto;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 900px) {
+    .direc img {
+        width: 300px;
+        height: 400px;
+    }
+
+    .Orchestra img {
+        width: 300px;
+        height: 400px;
+    }
+
+    .Orchestra .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Orchestra {
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .clear {
+        display: none;
+    }
+}

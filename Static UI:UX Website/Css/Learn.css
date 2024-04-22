@@ -1,0 +1,13 @@
+.content .container .row .col img {
+    height: 300px;
+    width: 300px;
+}
+
+.content .container .row .col {
+    margin: 20px;
+}
+
+.content .container .row {
+    text-align: center;
+    font-weight: bold;
+}
